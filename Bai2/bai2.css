@@ -1,0 +1,18 @@
+body{
+    background-color: #A8861B;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+h1{text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+}
+img{
+    display:block;
+    float: right;
+    border: 5px solid #fff;
+    height: 300px;
+    width: auto;
+}
+p{text-align: justify;
+    margin-right: 20px;
+}
