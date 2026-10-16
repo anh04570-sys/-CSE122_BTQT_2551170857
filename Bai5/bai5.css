@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h1{
+    color: #C2185B;
+    font-size: 30px;
+    text-align: center;
+}
+.content-container{
+    display: flex;
+    gap: 20px;
+    margin: 8px;
+}
+img{
+    width: 350px;
+    height: auto;
+}
+.header{
+    background-color: #FFC0CB;
+    font-weight: bold;
+    font-size: 25px;
+}
+.square{
+    list-style: square;
+}
+.circle{
+    list-style: circle;
+}
+li{
+    font-size: 20px;
+    line-height: 1.5;
+    margin-top: 8px;
+}
+u{
+    color: #0000EE;
+    font-size: 20px;
+    float: right;
+}
