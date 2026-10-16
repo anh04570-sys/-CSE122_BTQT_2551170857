@@ -1,0 +1,34 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+.header{
+    color: #1565C0;
+    text-align: center;
+    font-size: 35px;
+}
+img{
+    width: 100%;
+    height: 450px;
+    border-radius: 8px;
+}
+.content{
+    font-size: 30px;
+    text-align: left;
+    padding: 8px 8px;
+}
+.content2{
+    background-color:  #1565C0;
+    color:  #FFFFFF;
+    text-align:right;
+    font-size: 30px;
+    padding-right: 8px;
+}
+.content::first-letter{
+    float:left;
+    font-size: 2em;
+    line-height: 0.5;
+    font-weight: bolder;
+    color: #C62828;
+}
