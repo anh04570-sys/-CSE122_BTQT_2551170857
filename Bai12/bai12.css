@@ -1,0 +1,116 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-image: url('Anh/Bai12/Nen.gif');
+    background-repeat: repeat;
+    background-color: #f4f6f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.app-container {
+    width: 450px;
+    text-align: center;
+}
+
+.calendar-card {
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border-radius: 12px;
+    padding: 40px 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+.year {
+    color: #C62828;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.month {
+    color: #1565C0;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+
+.day {
+    color: #C62828;
+    font-size: 52px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.weekday {
+    color: #1565C0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.greeting {
+    color: #C62828;
+    font-style: italic;
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.form-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    background-color: #ffffff;
+    border: 2px solid #1565C0;
+    border-radius: 10px;
+    padding: 15px;
+    gap: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    flex: 1;
+}
+
+.input-group label {
+    font-size: 12px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 4px;
+    text-align: center;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 14px;
+}
+
+#btn-print {
+    background-color: #546e7a;
+    color: #ffffff;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 16px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 13px;
+}
+
+#btn-print:hover {
+    background-color: #455a64;
+}

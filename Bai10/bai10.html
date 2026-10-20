@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liên hệ với chúng tôi</title>
+    <link rel="stylesheet" href="bai10.css">
+</head>
+<body>
+    <div class="contact-card">
+        <div class="contact-header">
+            <h2>Liên hệ với chúng tôi</h2>
+            <p>Vui lòng điền thông tin bên dưới, chúng tôi sẽ phản hồi trong 24 giờ.</p>
+        </div>
+        <form action="#" method="POST" class="contact-form">
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="fullname">Họ và tên</label>
+                    <input type="text" id="fullname" name="fullname" value="Nguyễn Văn An" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" value="an.nv@tlu.edu.vn" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="form-group">
+                    <label for="phone">Số điện thoại</label>
+                    <input type="tel" id="phone" name="phone" value="0987 654 321" required>
+                </div>
+                <div class="form-group">
+                    <label for="subject">Chủ đề</label>
+                    <select id="subject" name="subject">
+                        <option value="khoa-hoc">Hỏi về khoá học</option>
+                        <option value="ho-tro">Hỗ trợ kỹ thuật</option>
+                        <option value="khac">Ý kiến khác</option>
+                    </select>
+                </div>
+            </div>
+            <div class="form-group full-width">
+                <label for="message">Nội dung</label>
+                <textarea id="message" name="message" rows="4">Em muốn hỏi về lịch nộp bài tập môn Lập trình Web ạ.</textarea>
+            </div>
+            <div class="form-footer">
+                <div class="checkbox-group">
+                    <input type="checkbox" id="agree" name="agree" checked>
+                    <label for="agree">Tôi đồng ý nhận email phản hồi.</label>
+                </div>
+                <div class="button-group">
+                    <button type="submit" class="btn-submit">Gửi liên hệ</button>
+                    <button type="reset" class="btn-reset">Nhập lại</button>
+                </div>
+            </div>
+
+        </form>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>In lịch theo ngày</title>
+    <link rel="stylesheet" href="bai12.css">
+</head>
+<body>
+    <div class="app-container">
+        <div class="calendar-card">
+            <div id="display-year" class="year">2026</div>
+            <div id="display-month" class="month">Tháng 12</div>
+            <div id="display-day" class="day">24</div>
+            <div id="display-weekday" class="weekday">Thứ hai</div>
+        </div>
+
+        <div id="display-greeting" class="greeting">
+            Chào buổi sáng!
+        </div>
+
+        <div class="form-box">
+            <div class="input-group">
+                <label for="input-day">Ngày</label>
+                <input type="number" id="input-day" value="24" min="1" max="31">
+            </div>
+
+            <div class="input-group">
+                <label for="input-month">Tháng</label>
+                <input type="number" id="input-month" value="12" min="1" max="12">
+            </div>
+
+            <div class="input-group">
+                <label for="input-year">Năm</label>
+                <input type="number" id="input-year" value="2026">
+            </div>
+
+            <button id="btn-print">In lịch</button>
+        </div>
+    </div>
+
+    <script src="bai12.js"></script>
+</body>
+</html>

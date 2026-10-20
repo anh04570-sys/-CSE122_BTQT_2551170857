@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f6f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.profile-card {
+    display: flex;
+    width: 850px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.profile-left {
+    flex: 0 0 280px; 
+    background: linear-gradient(135deg, #1565C0, #0d3f7a);
+    color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    color: #1565C0;
+    border-radius: 50%;
+    margin: 0 auto 20px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.profile-left h2 {
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+
+.job-title {
+    font-size: 14px;
+    opacity: 0.9;
+    margin-bottom: 30px;
+}
+
+.contact-list {
+    list-style: none;
+    text-align: left;
+    font-size: 13px;
+    line-height: 2;
+}
+
+.profile-right {
+    flex: 1; 
+    padding: 40px;
+}
+
+.section {
+    margin-bottom: 25px;
+}
+
+.section h3 {
+    color: #1565C0;
+    font-size: 16px;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 6px;
+    margin-bottom: 12px;
+}
+
+.section p {
+    font-size: 14px;
+    color: #333333;
+    line-height: 1.5;
+}
+
+.skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.skill-chip {
+    background-color: #e3f0ff;
+    color: #0d3f7a;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.links a {
+    color: #1565C0;
+    text-decoration: none;
+}
+
+.links a:hover {
+    text-decoration: underline;
+}
