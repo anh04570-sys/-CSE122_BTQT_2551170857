@@ -1,0 +1,154 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 16px;
+    background-color: #ffffff;
+    color: #222222;
+    font-size: 13px;
+}
+
+.container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.page-title {
+    margin: 0 0 16px;
+    padding: 8px;
+    background-color: #fff0ed;
+    border-bottom: 2px solid #c73528;
+    color: #c73528;
+    font-size: 24px;
+}
+
+.layout {
+    display: flex;
+    align-items: stretch;
+    border: 8px solid #edf2f7;
+    background-color: #ffffff;
+}
+
+.sidebar {
+    width: 23%;
+    flex-shrink: 0;
+    padding: 12px;
+    background-color: #f5f9fd;
+    border-right: 1px solid #dce5ee;
+}
+
+.logo {
+    margin: 0 0 12px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #1668c1;
+    color: #1668c1;
+    font-size: 16px;
+}
+
+.sidebar nav a {
+    display: block;
+    padding: 5px 0;
+    color: #1668c1;
+    text-decoration: none;
+    font-size: 12px;
+}
+
+.sidebar nav a:hover {
+    color: #c73528;
+    text-decoration: underline;
+}
+
+.content {
+    flex: 1;
+    min-width: 0;
+    padding: 12px;
+}
+
+.category-title {
+    margin: 8px 0;
+    padding: 7px 10px;
+    background-color: #1668c1;
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 2px;
+}
+
+.news-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    padding: 10px 0;
+    border-bottom: 1px solid #eeeeee;
+}
+
+.news-text {
+    flex: 1;
+    min-width: 0;
+}
+
+.news-item h3 {
+    margin: 0 0 6px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.news-item h3 a {
+    color: #1668c1;
+    text-decoration: none;
+}
+
+.news-item h3 a:hover {
+    text-decoration: underline;
+}
+
+.news-item p {
+    margin: 0;
+    font-size: 11px;
+    line-height: 1.5;
+}
+
+.news-item img {
+    width: 100px;
+    height: 75px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 8px;
+    }
+
+    .page-title {
+        font-size: 19px;
+    }
+
+    .layout {
+        border-width: 4px;
+    }
+
+    .sidebar {
+        width: 32%;
+        padding: 8px;
+    }
+
+    .logo {
+        font-size: 13px;
+    }
+
+    .content {
+        padding: 8px;
+    }
+
+    .news-item {
+        gap: 6px;
+    }
+
+    .news-item img {
+        width: 65px;
+        height: 60px;
+    }
+}

@@ -1,0 +1,93 @@
+body {
+    margin: 0;
+    padding: 30px;
+    background-color: #e6e6e6; 
+    color: #333333; 
+}
+
+.container {
+    max-width: 750px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border: 1px solid #cccccc;
+}
+
+.header-title {
+    background-color: #C8102E;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+    padding: 12px 10px;
+}
+
+.sub-header {
+    background-color: #FBE3E8;
+    color: #C8102E;
+    font-weight: bold;
+    text-align: center;
+    font-size: 14px;
+    padding: 8px 10px;
+    letter-spacing: 0.5px;
+}
+
+.content-body {
+    padding: 20px;
+    display: flex; 
+}
+
+.column {
+    flex: 1;
+    box-sizing: border-box;
+}
+
+.left-col {
+    padding-right: 20px;
+    border-right: 1px solid #e0e0e0; 
+}
+
+.right-col {
+    padding-left: 20px;
+}
+
+.product-img {
+    float: right;
+    width: 140px;
+    height: auto;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.section-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.section-title {
+    color: #C8102E; 
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 0 8px 0;
+    display: flex;
+    align-items: center;
+}
+
+.section-title::before {
+    content: "❑";
+    margin-right: 6px;
+    font-size: 14px;
+}
+
+.detail-list {
+    margin: 0 0 15px 0;
+    padding-left: 18px;
+    font-size: 13px;
+    line-height: 1.5;
+    color: #333333;
+}
+
+.detail-list li {
+    margin-bottom: 6px;
+}
